@@ -39,14 +39,14 @@ def get_average_age_for_season(date,season)
   contestants_total_age= 0 
   count= 0 
   data[season].each do |contestant_info|
-  age=contestant_info["age"].t_f
+  age=contestant_info["age"].t_1
   contestants_total_age +=age 
   count += 1
 end 
-average_age=contestants_total_age/count
+average_age=contestants_total_age.t_f/count
 average_age.round 
 end 
-end
+
 
   
   

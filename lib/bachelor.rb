@@ -9,7 +9,7 @@ end
 
 def get_contestant_name(data, occupation)
   # code here
-  data.each do |season, contestant|
+  data.each do |season, list_of_data|
     contestant.each do |person|
       return contestant["name"] if contestant["occupation"] == occupation
 end

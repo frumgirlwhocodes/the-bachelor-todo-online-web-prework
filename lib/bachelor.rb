@@ -43,7 +43,10 @@ def get_average_age_for_season(date,season)
   contestants_total_age +=age 
   count += 1
 end 
-average_age=contestants_total_age
+average_age=contestants_total_age/count
+average_age.round 
+end 
+end
 
   
   

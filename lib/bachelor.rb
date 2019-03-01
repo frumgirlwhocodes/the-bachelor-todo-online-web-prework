@@ -36,3 +36,13 @@ def get_occupation(data, hometown)
 	end 
 end
 def get_average_age_for_season(date,season)
+  average_age= 0 
+  contestant_age= 0 
+  data[season].each do |
+  
+  
+  
+  
+  
+  
+  

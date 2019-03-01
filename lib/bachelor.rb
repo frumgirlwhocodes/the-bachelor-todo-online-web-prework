@@ -21,9 +21,9 @@ def count_contestants_by_hometown(data, hometown)
   count=0 
   data.each do |season, contestant|
     contetant.each do |person|
-   count= if  person["hometown"] == hometown 
-     count += 1 
+   count= count + 1 if  person["hometown"] == hometown 
    end 
+   count
  end 
  end 
 end

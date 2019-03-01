@@ -23,11 +23,10 @@ def count_contestants_by_hometown(data, hometown)
     contetant.each do |person|
    count= count + 1 if  person["hometown"] == hometown 
    end 
+ end 
    count
  end 
- end 
- end 
-end
+ 
 
 def get_occupation(data, hometown)
   # code here
